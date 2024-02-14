@@ -4,14 +4,6 @@ body {
     background-color: beige;
     
 }
-header {
-        background-color: #8ea070;
-        color: #ffffff; 
-        padding: 20px; 
-        text-align: center; 
-
-       }
-
 .site-title h1 {
 
         color: hsl(132, 4%, 25%); 
@@ -48,8 +40,8 @@ header {
         text-decoration: none;
       }
 
-    footer {
-        background-color: hsl(129, 17%, 25%); 
+    header, footer {
+        background-color:hsl(83, 20%, 53%); 
         color: #fff; 
         padding: 20px; 
         text-align: center; 
