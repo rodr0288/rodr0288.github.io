@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     font-size: 18px;
@@ -16,7 +17,7 @@ body {
     }
 
 #my-image {
-        box-shadow: 0 0 2px 1px #000;
+        box-shadow: horizontal 0 vertical 0 2px 1px #000;
     }
     .square-bullets  {
         list-style-type: square;
@@ -41,8 +42,12 @@ body {
       }
 
     header, footer {
-        background-color:hsl(83, 20%, 53%); 
-        color: #fff; 
+        background-color:#8d9f6f; 
+        background-image: url("../images/texura-01.png") ;
+        background-position: 10px 6px;
+        background-size: cover;
+        color: hwb(120 12% 83%); 
         padding: 20px; 
         text-align: center; 
+        text-decoration-color: #8d9f6f;
     }
